@@ -1,0 +1,22 @@
+table{border-collapse:collapse;}
+#tabla1{border-collapse:separate}
+td, th {
+    border:1px solid black;
+    padding: 2px;
+} 
+
+
+#tabla1 .fondoVerde{background-color: darkgreen;}
+#tabla2 .fondoVerde{background-color: darkgreen;}
+table .fondoVerde{background-color: darkgreen;}
+.fondoVerde{background-color: darkgreen;}
+th.fondoVerde{
+    background-color: darkgreen;
+}
+#tabla1 td{background-color: black;color:white}
+tr td{background-color: darkgrey;color:darkred}
+td:hover{background-color: darkviolet;}
+*{background-color:deeppink}
+td{border-radius: 10px;}
+caption{border: 1px double red; border-radius: 20px}
+td{border-radius: 10px 2px 2px 10px;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang=es>
+    <head>
+        <title>Formulari</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/form.css">
+    </head>
+    <body>
+        <h1 class="h1">Curriculum</h1>
+        <br>
+        <fieldset>
+            <br>
+        <form action="respuesta.html" method="post">
+            <fieldset class="r1">
+                <legend><b><u>Información Basica</u></b></legend>
+                <label>Nombre</label>
+                <br>
+                <input type="text" name="nombre" value="" placeholder="tu nombre" required/><br>
+                <label>Altura en centimetros </label>
+                <br>
+                <input type="number" name="centimetros" value=""  required/>
+                <br>
+                <label>email</label>
+                <br>
+                <input type="email" name="email" value="" placeholder="tu email@dominio.com" required/><br>
+                <label>Fecha Nacimiento:</label><br>
+                <input type="date" name="fecha de nacimiento" required/>
+            </fieldset>
+            <br> 
+            <fieldset class="r2">
+                <legend><b><u>Nacionalidad</u></b></legend>
+                <br>
+                <input type="radio" name="Espanyola" value=""/>Espanyola
+                <input type="radio" name="Comunitario(UE)" value=""/>Comunitario(UE)
+                <input type="radio" name="No comunitario" value=""/>No comunitario 
+            </fieldset>
+            <br>
+            <fieldset class="r3">
+                <legend>Estudios</legend>
+                <br>
+                <select name="selection">
+                    <option value="uno">GM</option>
+                    <option value="dos">GS</option>
+                    <option value="tres">ESO</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset class="r4">
+                <legend>Idiomas</legend>
+                <br>
+                <input type="checkbox" name="Catalán" value="Catalán"/>Catalán
+                <input type="checkbox" name="Castellano" value=""/>Castellano
+                <input type="checkbox" name="Ingles" value=""/>Ingles
+                <input type="checkbox" name="Chino" value=""/>Chino
+            </fieldset>
+            <br>
+            <fieldset class="r5">
+                <input type="hidden" name="pagina_q_envia" value="formulario.html"/>
+                <input type="submit" value="Enviar" /><input type="reset" value="Cancelar"/>
+
+            </fieldset>
+        </fieldset>
+    </body>
+</html>

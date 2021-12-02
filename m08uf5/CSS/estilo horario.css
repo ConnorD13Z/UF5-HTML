@@ -1,0 +1,51 @@
+table,tr,td{border:1px solid black;}
+
+
+.eie{background-color: rgb(251, 255, 0);}
+
+.web{background-color: rgb(211, 128, 33);}
+
+.tut{background-color: rgb(68, 190, 109);}
+
+.redes{background-color: rgb(98, 194, 9);}
+
+.servicios{background-color: rgb(216, 76, 58);}
+
+.seguridad{background-color: rgb(0, 255, 213);}
+
+.hora{background-color: rgb(146, 143, 143);}
+
+.m04:hover {
+    background: blue;
+    color:white;
+}
+
+.m06:hover {
+    background: blue;
+    color:white;
+}
+
+.m07:hover {
+    background: blue;
+    color:white;
+}
+
+.m08:hover {
+    background: blue;
+    color:white;
+}
+
+.m10:hover {
+    background: blue;
+    color:white;
+}
+
+.m13:hover {
+    background: blue;
+    color:white;
+}
+
+.Tut-Alum:hover {
+    background:blue;
+    color:white;
+}
